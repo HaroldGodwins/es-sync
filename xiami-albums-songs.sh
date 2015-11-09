@@ -18,7 +18,7 @@ echo '{
              "port" : 9300
         },
         "index": "baidumusic",
-        "type": "xiami_album-songs"
+        "type": "xiami_album_songs"
     }
 
 }' | java \

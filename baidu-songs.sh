@@ -18,7 +18,7 @@ echo '{
              "port" : 9300
         },
         "index": "baidumusic",
-        "type": "baidu-songs"
+        "type": "baidu_songs"
     }
 
 }' | java \
