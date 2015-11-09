@@ -9,7 +9,7 @@ echo '{
         "password": "ilvhel007",
         "sql": [
           {
-            "statement": "select id as _id, artist_id, area, category, gender, company, artist_name, english_name, logo, albums_count, play_count, create_date, update_time from xiami_singers"
+            "statement": "select id as _id, album_id, album_name, sub_title, artist_id, artist_name, language, category, album_category, grade, song_count, cd_count, play_count, logo, artist_logo, create_date, update_time, play_authority from xiami_albums"
           }
         ],
         "elasticsearch" : {
