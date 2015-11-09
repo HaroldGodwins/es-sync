@@ -4,9 +4,9 @@ echo '{
     "type": "jdbc",
     "jdbc": {
         "driver": "com.mysql.jdbc.Driver",
-        "url": "jdbc:mysql://localhost:3306/baidumusic",
-        "user": "root",
-        "password": "ilvhel",
+        "url": "jdbc:mysql://musicinfo.mysql.rds.aliyuncs.com:3306/baidumusic",
+        "user": "kaili",
+        "password": "ilvhel007",
         "sql": [
           {
             "statement": "select id as _id, artist_id, area, category, gender, company, artist_name, english_name, logo, albums_count, play_count, create_date, update_time from xiami_singers"
