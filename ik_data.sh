@@ -2,9 +2,9 @@ bin=$JDBC_IMPORTER_HOME/bin
 lib=$JDBC_IMPORTER_HOME/lib
 
 # database config
-url=jdbc:mysql://localhost:3306/baidumusic
-user=root
-password=ilvhel
+url=jdbc:mysql://musicinfo.mysql.rds.aliyuncs.com:3306/baidumusic
+user=kaili
+password=ilvhel007
 
 # ik config
 index=es_nlp_ik_smart
