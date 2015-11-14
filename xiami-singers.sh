@@ -1,5 +1,6 @@
 bin=$JDBC_IMPORTER_HOME/bin
 lib=$JDBC_IMPORTER_HOME/lib
+
 echo '{
     "type": "jdbc",
     "jdbc": {
